@@ -55,13 +55,7 @@ export default function Sidebar({ collapsed, onToggle }) {
             {/* Logo */}
             <div className={styles.logo}>
                 <div className={styles.logoIcon}>
-                    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-                        <circle cx="16" cy="16" r="14" fill="#4A7C28" opacity="0.15" />
-                        <path d="M16 6C10.477 6 6 10.477 6 16s4.477 10 10 10 10-4.477 10-10S21.523 6 16 6z" stroke="#4A7C28" strokeWidth="1.5" />
-                        <path d="M12 16c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4" stroke="#F5A623" strokeWidth="2" strokeLinecap="round" />
-                        <circle cx="16" cy="16" r="2" fill="#F5A623" />
-                        <path d="M16 10v2M16 20v2M10 16h2M20 16h2" stroke="#4A7C28" strokeWidth="1.5" strokeLinecap="round" />
-                    </svg>
+                    <img src="/coffeechain-logo-v2.png" alt="CoffeeChain" className={styles.logoImage} />
                 </div>
                 {!collapsed && (
                     <div className={styles.logoText}>
